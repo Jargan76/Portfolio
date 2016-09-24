@@ -20,13 +20,14 @@
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Site Project 1</a></li>
-                        <li><a href="#">Site Project 2</a></li>
-                        <li><a href="#">Site Project 3</a></li>
+                        <li><a href="#project1">Site Project 1</a></li>
+                        <li><a href="#project2">Site Project 2</a></li>
+                        <li><a href="#project3">Site Project 3</a></li>
+                        <li><a href="#project4">Site Project 4</a></li>
                         <li role="separator" class="divider"></li>
                         <li class="dropdown-header">Fun Projects</li>
-                        <li><a href="#">Game 1</a></li>
-                        <li><a href="#">Game 2</a></li>
+                        <li><a href="#game1">Game 1</a></li>
+                        <li><a href="#game2">Game 2</a></li>
                     </ul>
                             </li>
                 </ul>
@@ -59,21 +60,31 @@
 <div id="divider2" ></div>
 
 <div class="container display">
-    <div class="row" >
-        <div class="left col-xs-5 "><img src="images/resume-site.jpg" class="img-responsive"></div>
+    <div class="row" id="topRow">
+        <div class="left col-xs-5 " id="project1"><img src="images/resume-site.jpg" class="img-responsive" title="Resume Site" _/></div>
         <div class="center col-xs-2"></div>
-        <div class="col-xs-5 right"><img src="images/onemillionLines.jpg" class="img-responsive"><img src="" class="img-responsive"><img src="" class="img-responsive"><img src="" class="img-responsive"><img src="" class="img-responsive"></div>
+        <div class="col-xs-5 right" id="project2"><img src="images/onemillionLines.jpg" class="img-responsive" title="Code.org Project" _/></div>
     </div>
-   <!-- <div class="row">
-        <div class="col-xs-6 left"><img src="" class="img-responsive"><img src="" class="img-responsive"><img src="" class="img-responsive"><img src="" class="img-responsive"></div>
-        <div class="col-xs-6 right"><img src="" class="img-responsive"><img src="" class="img-responsive"><img src="" class="img-responsive"></div>
+    <div class="row" id="centerRow">
+        <div class="col-xs-5 left" id="project3"><img src="images/fLight.jpg" class="img-responsive" title="starter site for F-Light lighters" _/></div>
+        <div class="center col-xs-2"></div>
+        <div class="col-xs-5 right" id="project4"><img src="images/bsCakes.jpg" class="img-responsive" title="made for local cake maker" _/></div>
     </div>
-    <div class="row">
-        <div class="col-xs-6 left"><img src="" class="img-responsive"><img src="" class="img-responsive"></div>
-        <div class="col-xs-6 right"><img src="" class="img-responsive"></div>
+    <div class="row" id="bottomRow">
+        <div class="col-xs-5 left" id="game1"><img src="images/game1.jpg" class="img-responsive" title="JS game random words" _/></div>
+        <div class="center col-xs-2"></div>
+        <div class="col-xs-5 right" id="game2"><img src="images/game2.jpg" class="img-responsive" title="SVG animated house" _/></div>
     </div>
-    -->
 </div>
+<div class="container about text-center">
+    <p id="about">This is about me. Blah blah blah...</p>
+</div>
+<footer class="text-center">
+    <p><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    </p>
+</footer>
             <!-- bootstrap js & jQuery links  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
