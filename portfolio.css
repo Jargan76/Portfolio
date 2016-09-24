@@ -1,0 +1,59 @@
+body {
+    background-color: #a3dbf5;
+}
+#divider, #divider2 {
+    height: 2em;
+    background-color: #033c58;
+    width: 100%;
+    border-bottom: 0.5em solid #0375ac;
+    border-top: 0.5em solid #0375ac;
+}
+#divider2 {
+    margin-top: 9em;
+}
+#portfolio {
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 5.5em;
+    margin-top: 0.5em;
+}
+#eric {
+    height: 17em;
+}
+#eric p {
+    margin: 1.8em 0 0 0.2em;
+    font-size: 1.8em;
+    color: #dbdbdb;
+    padding: 0.6em 0.2em;
+    line-height: 1.5em;
+    width: 21em;
+}
+#eric-image {
+    border: 0.2em solid #dbdbdb;
+    margin: 0.5em auto;
+    height: 16em;
+    border-radius: 45%;
+}
+#header-div {
+    margin-top: 52px;
+    background-color: #119ce0;
+    height: 17em;
+    box-shadow: 0.5em 0.5em 1em #010101;
+}
+.col-xs-6 {
+    border: 0.2em solid #033c58;
+}
+.display {
+    margin-top: 3em;
+    padding: 0.9em 1.8em;
+    background-color: #54b1de;
+}
+.navbar {
+    background-color: #033c58;
+}
+.navbar-default .navbar-brand {
+    color: #dbdbdb;
+    font-weight: 600;
+    font-size: 1.7em;
+}
