@@ -89,6 +89,47 @@ footer {
 #bottomRow {
   margin: 0.5em 0 1em 0;
 }
+/*  -------- pirate style --- */
+#pirate-talk {
+  font-family: cursive;
+  font-size: 1.5em;
+}
+#left-form {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+#pirate-me {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.pirate .col-xs-6 {
+  border: none;
+}
+/*========  mail chimp style ======*/
+#mc_embed_signup{
+  font-size: 1.1em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  border: 0.3em solid #033c58;
+}
+#mc_embed_signup label {
+  margin: 0.3em 0 0.2em 0.3em;
+}
+#mc_embed_signup input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+  border: 0.1em solid #033c58;
+  background-color: #dbdbdb;
+}
+#mc-embedded-subscribe {
+  margin-top: 0.5em;
+  background-color: #033c58;
+  color: #dbdbdb;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
 /*  ========  class styles  =========   */
 .col-xs-6 {
   border: 0.2em solid #033c58;
@@ -107,9 +148,10 @@ footer {
   font-weight: 600;
   font-size: 1.3em;
 }
-.jumbotron {
-
+.well {
+  margin-top: 0.3em;
 }
+
 .left, .right {
   padding: 0 0;
   border-right:  0.3em solid #033c58 ;
